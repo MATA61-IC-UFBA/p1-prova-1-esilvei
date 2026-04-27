@@ -12,7 +12,7 @@ int yylex();
 %%
 
 "//".* { }
-"\\\\".* { }
+"\\".* { }
 
 "print"                 { return PRINT; }
 "concat"                { return CONCAT; }
